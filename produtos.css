@@ -2,24 +2,16 @@ header {
     background: #BBBBBB;
 }
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-
-  }
- .caixa {
+.caixa {
     position: relative;
-    width:940px;
-    right:0 auto;
- }
+    width: 940px;
+    margin: 0 auto;
+}
 
 nav {
     position: absolute;
@@ -38,4 +30,35 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+.produtos {
+    width: 20px;
+    margin: 20 auto;
+    padding: 3px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.produtos h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 20px;
+}
+
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
